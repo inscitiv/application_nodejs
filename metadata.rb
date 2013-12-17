@@ -6,6 +6,6 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "1.0.1"
 
 depends          "nodejs"
-depends          "application"
+depends          "application", "=2.0.4"
 
 supports 'ubuntu', ">= 12.04"
